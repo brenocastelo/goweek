@@ -4,7 +4,6 @@ import socket from 'socket.io-client';
 
 import twitterLogo from '../twitter.svg';
 import './Timeline.css'
-
 import Tweet from '../components/Tweet';
 
 export default class Timeline extends Component {

@@ -12,7 +12,7 @@ export default class Login extends Component {
     e.preventDefault();
 
     const { username } = this.state;
-    
+      
     if (!username.length) return;
     localStorage.setItem('@GoTwitter:username', username);
 
